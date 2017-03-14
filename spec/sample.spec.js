@@ -2,7 +2,7 @@
 var sample_1 = require("../src/sample");
 describe("function name", function () {
     it("should return true", function () {
-        expect(true).toBe(true);
+        expect(true).toBe(false);
     });
     it("should return true", function () {
         var sample = new sample_1.Sample();
